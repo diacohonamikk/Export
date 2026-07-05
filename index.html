@@ -3,197 +3,127 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diako Honamik | Export Company</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700;900&display=swap" rel="stylesheet">
-
-<style>
-
-body{
-    margin:0;
-    font-family:Vazirmatn;
-    direction:rtl;
-    background:#fff;
-}
-
-/* HEADER HERO */
-.hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:60px;
-    background:linear-gradient(120deg,#0b7a3b,#0f9d58);
-    color:white;
-}
-
-.hero-text{
-    width:50%;
-}
-
-.hero-text h1{
-    font-size:40px;
-}
-
-.hero-text p{
-    font-size:18px;
-    opacity:0.9;
-}
-
-.hero img{
-    width:40%;
-    border-radius:15px;
-}
-
-/* LOGO */
-.logo{
-    width:120px;
-    margin-bottom:20px;
-}
-
-/* SECTIONS */
-.section{
-    padding:60px;
-}
-
-.section h2{
-    color:#0b7a3b;
-    margin-bottom:20px;
-}
-
-/* ABOUT LAYOUT */
-.about{
-    display:flex;
-    gap:40px;
-    align-items:center;
-}
-
-.about img{
-    width:45%;
-    border-radius:15px;
-}
-
-.about-text{
-    width:55%;
-}
-
-/* GALLERY */
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:15px;
-}
-
-.gallery img{
-    width:100%;
-    height:180px;
-    object-fit:cover;
-    border-radius:10px;
-}
-
-/* CONTACT */
-.contact{
-    background:#0b7a3b;
-    color:white;
-    padding:40px;
-    border-radius:15px;
-}
-
-.red{
-    color:#ff4d4d;
-    font-weight:bold;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-@media(max-width:768px){
-    .hero, .about{
-        flex-direction:column;
-    }
-
-    .hero img, .about img{
-        width:100%;
-    }
-
-    .hero-text, .about-text{
-        width:100%;
-    }
-}
-
-</style>
+<title>Diaco Honamik | Export & Import</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- HEADER -->
+<header>
+<div class="logo">
+<img src="images/logo.png" alt="Diaco Honamik Logo">
+<h1>Diaco Honamik</h1>
+</div>
+
+<nav>
+<a href="#about">درباره</a>
+<a href="#services">خدمات</a>
+<a href="#destinations">کشورها</a>
+<a href="#contact">تماس</a>
+</nav>
+</header>
+
 <!-- HERO -->
-<div class="hero">
-
+<section class="hero">
 <div class="hero-text">
-
-<img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Export_logo.svg/512px-Export_logo.svg.png">
-
-<h1>شرکت صادراتی دیاکو هونامیک</h1>
-<p>تخصص در صادرات محصولات ایرانی به سراسر جهان با مدیریت حرفه‌ای و تجربه بین‌المللی</p>
-
+<h2>Global Export & Import Company</h2>
+<p>Diaco Honamik | International Trade Solutions</p>
+<a href="#contact" class="btn">ارتباط با ما</a>
 </div>
-
-<img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df">
-
-</div>
+</section>
 
 <!-- ABOUT -->
-<div class="section about">
-
-<img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d">
-
-<div class="about-text">
+<section id="about" class="section">
 <h2>درباره شرکت</h2>
 <p>
-شرکت دیاکو هونامیک با مدیریت <b>وحید بهرامی</b> در زمینه صادرات محصولات ایرانی شامل
-محصولات کشاورزی، صنعتی و غذایی فعالیت می‌کند.
-<br><br>
-هدف ما ایجاد ارتباط تجاری پایدار بین ایران و بازارهای جهانی است.
+شرکت دیاکو هونامیک در حوزه صادرات و واردات بین‌المللی فعالیت دارد.
+ما در بازارهای جهانی از ایران تا دبی، چین، اروپا و آمریکا همکاری تجاری داریم.
 </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section dark">
+<h2>خدمات ما</h2>
+
+<div class="grid">
+<div class="card">📦 صادرات کالا</div>
+<div class="card">🚢 حمل و نقل بین‌المللی</div>
+<div class="card">🏷 بسته‌بندی صادراتی</div>
+<div class="card">🤝 B2B Trading</div>
 </div>
+</section>
 
-</div>
-
-<!-- GALLERY -->
-<div class="section">
-
+<!-- PRODUCTS -->
+<section class="section">
 <h2>محصولات صادراتی</h2>
 
-<div class="gallery">
+<div class="grid">
+<div class="card">خرمای پیارم</div>
+<div class="card">خرمای مضافتی</div>
+<div class="card">پسته ایرانی</div>
+<div class="card">خشکبار</div>
+</div>
+</section>
 
-<img src="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2">
-<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c">
-<img src="https://images.unsplash.com/photo-1607082349566-187342175e2f">
-<img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce">
+<!-- DESTINATIONS -->
+<section id="destinations" class="section dark">
+<h2>بازارهای هدف صادراتی</h2>
+
+<div class="grid">
+
+<div class="card">🇦🇪 UAE (DAFZA / JAFZA)</div>
+<div class="card">🇨🇳 China (Guangzhou / Yiwu)</div>
+<div class="card">🇭🇰 Hong Kong</div>
+<div class="card">🇰🇷 Korea</div>
+<div class="card">🇹🇷 Turkey</div>
+<div class="card">🇷🇺 Russia</div>
+<div class="card">🇮🇹 Italy</div>
+<div class="card">🇩🇪 Germany</div>
+<div class="card">🇮🇶 Iraq</div>
+<div class="card">🇺🇸 USA</div>
 
 </div>
+</section>
 
-</div>
+<!-- WHY US -->
+<section class="section">
+<h2>چرا دیاکو هونامیک؟</h2>
+<ul>
+<li>✔ ارتباط مستقیم با بازار جهانی</li>
+<li>✔ قیمت رقابتی صادراتی</li>
+<li>✔ ارسال سریع به دبی و اروپا</li>
+<li>✔ تجربه در تجارت بین‌الملل</li>
+</ul>
+</section>
 
 <!-- CONTACT -->
-<div class="section">
+<section id="contact" class="section dark">
+<h2>تماس با ما</h2>
 
-<div class="contact">
-<h2>اطلاعات تماس</h2>
+<div class="contact-box">
+<p>📍 تهران: جردن، خیابان سلطانی، پلاک ۱۸</p>
+<p>📍 دبی: DAFZA / JAFZA</p>
+<p>📞 09123167391</p>
 
-<p>مدیر: <span class="red">وحید بهرامی</span></p>
-<p>شماره تماس: <span class="red">09123167391</span></p>
-<p>آدرس: تهران - جردن</p>
+<a class="whatsapp" href="https://wa.me/989123167391" target="_blank">
+📱 WhatsApp
+</a>
 
 </div>
+</section>
 
-</div>
+<!-- MAP -->
+<section class="section">
+<h2>موقعیت</h2>
+<iframe
+src="https://www.google.com/maps?q=Tehran Jordan&output=embed"
+></iframe>
+</section>
 
+<!-- FOOTER -->
 <footer>
-© 2026 Diako Honamik Export Company
+© 2026 Diaco Honamik | All Rights Reserved
 </footer>
 
 </body>
