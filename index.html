@@ -3,247 +3,178 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diaco Honamik | Export & Import</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<title>Diaco Honamik | دیاکو هونامیک - Export & Import Company</title>
 
-<body>
-
-<!-- HEADER -->
-<header>
-<div class="logo">
-<img src="images/logo.png" alt="Diaco Honamik Logo">
-<h1>Diaco Honamik</h1>
-</div>
-
-<nav>
-<a href="#about">درباره</a>
-<a href="#services">خدمات</a>
-<a href="#destinations">کشورها</a>
-<a href="#contact">تماس</a>
-</nav>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-<div class="hero-text">
-<h2>Global Export & Import Company</h2>
-<p>Diaco Honamik | International Trade Solutions</p>
-<a href="#contact" class="btn">ارتباط با ما</a>
-</div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="section">
-<h2>درباره شرکت</h2>
-<p>
-شرکت دیاکو هونامیک در حوزه صادرات و واردات بین‌المللی فعالیت دارد.
-ما در بازارهای جهانی از ایران تا دبی، چین، اروپا و آمریکا همکاری تجاری داریم.
-</p>
-</section>
-
-<!-- SERVICES -->
-<section id="services" class="section dark">
-<h2>خدمات ما</h2>
-
-<div class="grid">
-<div class="card">📦 صادرات کالا</div>
-<div class="card">🚢 حمل و نقل بین‌المللی</div>
-<div class="card">🏷 بسته‌بندی صادراتی</div>
-<div class="card">🤝 B2B Trading</div>
-</div>
-</section>
-
-<!-- PRODUCTS -->
-<section class="section">
-<h2>محصولات صادراتی</h2>
-
-<div class="grid">
-<div class="card">خرمای پیارم</div>
-<div class="card">خرمای مضافتی</div>
-<div class="card">پسته ایرانی</div>
-<div class="card">خشکبار</div>
-</div>
-</section>
-
-<!-- DESTINATIONS -->
-<section id="destinations" class="section dark">
-<h2>بازارهای هدف صادراتی</h2>
-
-<div class="grid">
-
-<div class="card">🇦🇪 UAE (DAFZA / JAFZA)</div>
-<div class="card">🇨🇳 China (Guangzhou / Yiwu)</div>
-<div class="card">🇭🇰 Hong Kong</div>
-<div class="card">🇰🇷 Korea</div>
-<div class="card">🇹🇷 Turkey</div>
-<div class="card">🇷🇺 Russia</div>
-<div class="card">🇮🇹 Italy</div>
-<div class="card">🇩🇪 Germany</div>
-<div class="card">🇮🇶 Iraq</div>
-<div class="card">🇺🇸 USA</div>
-
-</div>
-</section>
-
-<!-- WHY US -->
-<section class="section">
-<h2>چرا دیاکو هونامیک؟</h2>
-<ul>
-<li>✔ ارتباط مستقیم با بازار جهانی</li>
-<li>✔ قیمت رقابتی صادراتی</li>
-<li>✔ ارسال سریع به دبی و اروپا</li>
-<li>✔ تجربه در تجارت بین‌الملل</li>
-</ul>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section dark">
-<h2>تماس با ما</h2>
-
-<div class="contact-box">
-<p>📍 تهران: جردن، خیابان سلطانی، پلاک ۱۸</p>
-<p>📍 دبی: DAFZA / JAFZA</p>
-<p>📞 09123167391</p>
-
-<a class="whatsapp" href="https://wa.me/989123167391" target="_blank">
-📱 WhatsApp
-</a>
-
-</div>
-</section>
-
-<!-- MAP -->
-<section class="section">
-<h2>موقعیت</h2>
-<iframe
-src="https://www.google.com/maps?q=Tehran Jordan&output=embed"
-></iframe>
-</section>
-
-<!-- FOOTER -->
-<footer>
-© 2026 Diaco Honamik | All Rights Reserved
-</footer>
-
-</body>
-</html>
-
-body{
+<style>
+body {
 margin:0;
 font-family:tahoma;
+background:#f5f7f6;
 direction:rtl;
-background:#f4f6f5;
 }
 
-header{
+header {
+background:#0b3d2e;
+color:white;
+padding:20px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:15px 30px;
-background:#0b3d2e;
-color:white;
 }
 
-.logo{
-display:flex;
-align-items:center;
-gap:10px;
+header h1 {
+font-size:20px;
 }
 
-.logo img{
-width:45px;
-height:45px;
-border-radius:50%;
-}
-
-nav a{
+nav a {
 color:white;
 margin:0 10px;
 text-decoration:none;
+font-size:14px;
 }
 
-.hero{
-height:420px;
-background:url("images/hero.jpg") center/cover;
+.hero {
+background:url('https://images.unsplash.com/photo-1601598851547-4302969d0614') center/cover;
+height:400px;
 display:flex;
 justify-content:center;
 align-items:center;
+color:white;
 text-align:center;
-color:white;
+flex-direction:column;
 }
 
-.hero-text{
+.hero h2 {
+font-size:32px;
 background:rgba(0,0,0,0.5);
-padding:20px;
-border-radius:10px;
+padding:10px;
 }
 
-.btn{
-background:#25D366;
-padding:10px 20px;
-color:white;
-text-decoration:none;
-display:inline-block;
-margin-top:10px;
-border-radius:8px;
-}
-
-.section{
-padding:50px;
+.section {
+padding:40px;
 max-width:1100px;
 margin:auto;
 }
 
-.dark{
-background:#0b3d2e;
-color:white;
-}
-
-.grid{
+.cards {
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:15px;
-margin-top:20px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
-.card{
-background:white;
-padding:15px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
-}
-
-.dark .card{
-background:#145c45;
-color:white;
-}
-
-.contact-box{
+.card {
 background:white;
 padding:20px;
 border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-.whatsapp{
-display:inline-block;
-background:#25D366;
+.footer {
+background:#0b3d2e;
 color:white;
-padding:10px 15px;
-border-radius:8px;
-margin-top:10px;
-text-decoration:none;
-}
-
-iframe{
-width:100%;
-height:300px;
-border:0;
-}
-
-footer{
 text-align:center;
 padding:20px;
-background:#0b3d2e;
-color:white;
+margin-top:40px;
 }
+
+.btn {
+display:inline-block;
+padding:10px 20px;
+background:#25D366;
+color:white;
+border-radius:8px;
+text-decoration:none;
+margin-top:10px;
+}
+
+.contact-box {
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Diaco Honamik</h1>
+<nav>
+<a href="#about">درباره</a>
+<a href="#services">خدمات</a>
+<a href="#products">محصولات</a>
+<a href="#contact">تماس</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>شرکت صادرات و واردات دیاکو هونامیک</h2>
+<p>Export | Import | Global Trade</p>
+</div>
+
+<div class="section" id="about">
+<h2>درباره شرکت</h2>
+<p>
+شرکت دیاکو هونامیک در زمینه صادرات و واردات کالاهای بازرگانی فعالیت دارد و آماده همکاری با مشتریان بین‌المللی در سراسر جهان می‌باشد.
+</p>
+</div>
+
+<div class="section" id="services">
+<h2>خدمات ما</h2>
+<div class="cards">
+<div class="card">🌍 صادرات محصولات ایرانی</div>
+<div class="card">🚢 حمل و نقل بین‌المللی</div>
+<div class="card">📦 بسته‌بندی صادراتی</div>
+<div class="card">🤝 همکاری B2B</div>
+</div>
+</div>
+
+<div class="section" id="products">
+<h2>محصولات صادراتی</h2>
+<div class="cards">
+<div class="card">خرمای پیارم</div>
+<div class="card">خرمای مضافتی</div>
+<div class="card">پسته ایرانی</div>
+<div class="card">کشمش و خشکبار</div>
+</div>
+</div>
+
+<div class="section">
+<h2>چرا دیاکو هونامیک؟</h2>
+<ul>
+<li>✔ تجربه در بازار صادرات</li>
+<li>✔ ارتباط مستقیم با تولیدکننده</li>
+<li>✔ قیمت رقابتی</li>
+<li>✔ ارسال سریع به دبی و عمان</li>
+</ul>
+</div>
+
+<div class="section" id="contact">
+<h2>تماس با ما</h2>
+
+<div class="contact-box">
+<p>📍 تهران: جردن، خیابان سلطانی، پلاک ۱۸، طبقه ۵</p>
+<p>📍 دبی: Dubai Airport Free Zone (DAFZA)</p>
+
+<p>📞 09123167391</p>
+
+<a class="btn" href="https://wa.me/989123167391" target="_blank">
+چت در واتساپ
+</a>
+
+</div>
+</div>
+
+<div class="section">
+<h2>موقعیت ما</h2>
+<iframe src="https://www.google.com/maps?q=Tehran Jordan Street&output=embed" width="100%" height="300"></iframe>
+</div>
+
+<div class="footer">
+© 2026 Diaco Honamik | All Rights Reserved
+</div>
+
+</body>
+</html>
